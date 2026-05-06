@@ -1,4 +1,4 @@
-import { CartaPage, HomePage, ProductItemPage, FavoritesPage } from "../pages";
+import { HomePage, ProductItemPage, FavoritesPage, CartPage } from "../pages";
 
 export const routes = [
     {
@@ -7,7 +7,7 @@ export const routes = [
     },
     {
         path: "/cart",
-        element: <CartaPage />
+        element: <CartPage />
     },
     {
         path: "/product-item",

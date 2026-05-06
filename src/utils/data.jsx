@@ -52,7 +52,7 @@ export const cartItems = [
     monthly: "183,874 сум/мес",
     price: 1699000,
     priceLabel: "1,699,000 сум",
-    image: "/public/cart.webp",
+    image: "/images/cart.webp",
     quantity: 1
   },
   {
@@ -61,7 +61,7 @@ export const cartItems = [
     monthly: "95,000 сум/мес",
     price: 750000,
     priceLabel: "750,000 сум",
-    image: "/public/cart.webp",
+    image: "/images/cart.webp",
     quantity: 1
   },
 ];
