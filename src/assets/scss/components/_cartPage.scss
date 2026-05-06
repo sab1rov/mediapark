@@ -1,0 +1,258 @@
+.cart {
+  background: $gray-bg;
+  padding: 20px 24px 32px;
+
+  &__content {
+    display: grid;
+    grid-template-columns: 1.45fr 0.95fr;
+    gap: 24px;
+    max-width: 1440px;
+    margin: 0 200px;
+  }
+
+  &__panel {
+    background: #fff;
+    border-radius: 18px;
+    padding: 28px;
+  }
+
+  &__title {
+    font-size: 26px;
+    font-weight: 700;
+    color: $black;
+    margin: 0 0 22px;
+  }
+
+  &__toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 22px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid $border;
+  }
+
+  &__select-all {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: $black;
+    cursor: pointer;
+  }
+
+  &__checkbox {
+    width: 18px;
+    height: 18px;
+    accent-color: $red;
+    cursor: pointer;
+  }
+
+  &__delete-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px; 
+    color: $gray-text;
+    font-size: 14px;
+    cursor: pointer;
+    transition: color 0.2s;
+
+    &:hover {
+      color: $red;
+    }
+  }
+
+  &__items {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  &__item {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 10px;
+    align-items: center;
+    padding: 22px;
+    border: 1px solid $border;
+    border-radius: 18px;
+    background: #fff;
+  }
+
+  &__item-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 16px;
+    overflow: hidden;
+    background: #f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__item-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  &__item-info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  &__item-name {
+    font-size: 16px;
+    font-weight: 700;
+    color: $black;
+    line-height: 1.4;
+  }
+
+  &__item-monthly {
+    font-size: 14px;
+    color: $red;
+    font-weight: 600;
+  }
+
+  &__item-actions {
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+  }
+
+  &__item-remove,
+  &__item-like {
+    background: transparent;
+    font-size: 14px;
+    cursor: pointer;
+    color: $gray-text;
+    transition: color 0.2s;
+  }
+
+  &__item-remove:hover,
+  &__item-like:hover {
+    color: $black;
+  }
+
+  &__item-like {
+    font-weight: 700;
+  }
+
+  &__item-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 14px;
+  }
+
+  &__item-price {
+    font-size: 18px;
+    font-weight: 700;
+    color: $black;
+    white-space: nowrap;
+  }
+
+  &__qty {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 14px;
+    border: 1px solid $border;
+    border-radius: 14px;
+    background: #fafafa;
+  }
+
+  &__qty-btn {
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    color: $black;
+    width: 24px;
+    text-align: center;
+    transition: color 0.2s;
+  }
+
+  &__qty-btn:hover {
+    color: $red;
+  }
+
+  &__qty-value {
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  &__summary {
+    background: #fff;
+    border-radius: 18px;
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  &__summary-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: $black;
+    margin: 0;
+  }
+
+  &__summary-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: $gray-text;
+  }
+
+  &__summary-row--total {
+    padding-top: 12px;
+    border-top: 1px solid $border;
+    color: $black;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  &__summary-delivery {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px;
+    border: 1px solid $border;
+    border-radius: 16px;
+  }
+
+  &__summary-delivery-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: $black;
+  }
+
+  &__summary-delivery-link {
+    font-size: 13px;
+    color: $red;
+    text-decoration: none;
+  }
+
+  &__summary-btn {
+    width: 100%;
+    padding: 16px;
+    border: none;
+    border-radius: 16px;
+    background: $red;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+
+  &__summary-btn:hover {
+    background: $red-dark;
+  }
+}
