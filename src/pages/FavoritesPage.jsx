@@ -1,6 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import '/src/assets/scss/components/_FavoritesPage.scss';
+import { Link } from 'react-router';
 import { CartSmallIcon, HeartFilledIcon } from '../assets/icons/icons.jsx';
 
 export default function Favorites() {

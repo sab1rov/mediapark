@@ -1,2 +1,6 @@
+@import "./generals/_variables.scss";
 @import "./generals/_normalize.scss";
-@import "./generals/_header.scss";
+
+@import "./components/_header.scss";
+@import "./components/_favoritesPage.scss";
+@import "./components/_cartPage.scss";
