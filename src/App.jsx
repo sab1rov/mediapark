@@ -1,6 +1,6 @@
-import { Route, Routes } from 'react-router'
-import { Footer, Header } from './components'
-import { routes } from './utils/routes'
+import { Route, Routes } from "react-router"
+import { Footer, Header } from "./components"
+import { routes } from "./utils/routes"
 
 function App() {
   return (

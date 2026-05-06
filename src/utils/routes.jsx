@@ -1,16 +1,16 @@
-import { CartaPage, HomePage, ProductItemPage } from '../pages'
+import { CartaPage, HomePage, ProductItemPage } from "../pages"
 
 export const routes = [
   {
-    path: '/',
+    path: "/",
     element: <HomePage />,
   },
   {
-    path: '/cart',
+    path: "/cart",
     element: <CartaPage />,
   },
   {
-    path: '/product-item',
+    path: "/product-item",
     element: <ProductItemPage />,
   },
 ]
