@@ -1,4 +1,4 @@
-import { CartaPage, HomePage, ProductItemPage } from "../pages";
+import { CartaPage, HomePage, ProductItemPage, FavoritesPage } from "../pages";
 
 export const routes = [
     {
@@ -12,5 +12,9 @@ export const routes = [
     {
         path: "/product-item",
         element: <ProductItemPage />
+    },
+    {
+        path: "/favorites",
+        element: <FavoritesPage />
     }
 ]
