@@ -1,5 +1,4 @@
 import React from 'react';
-import '/src/assets/scss/components/_CartaPage.scss';
 import { BoxIcon, TrashIcon, TruckIcon } from '../assets/icons/icons.jsx';
 import { cartItems } from '../utils/data.jsx';
 

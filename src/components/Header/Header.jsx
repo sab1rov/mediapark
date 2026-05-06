@@ -1,6 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
-import '/src/assets/scss/generals/_header.scss';
+import { Link } from 'react-router';
 import { SearchIcon, OrderIcon, CompareIcon, HeartIcon, UserIcon, CartIcon, BurgerIcon, PhoneIcon, MapPinIcon } from '../../assets/icons/icons.jsx';
 
 function Header() {
