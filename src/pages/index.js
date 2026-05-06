@@ -1,6 +1,6 @@
-import CartaPage from "./CartaPage";
 import FavoritesPage from "./FavoritesPage";
 import HomePage from "./HomePage";
 import ProductItemPage from "./ProductItemPage";
+import CartPage from "./CartPage";
 
-export { CartaPage, FavoritesPage, HomePage, ProductItemPage }
+export { CartPage, FavoritesPage, HomePage, ProductItemPage }

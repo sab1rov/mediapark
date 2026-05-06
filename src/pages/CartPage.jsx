@@ -2,7 +2,7 @@ import React from 'react';
 import { BoxIcon, TrashIcon, TruckIcon } from '../assets/icons/icons.jsx';
 import { cartItems } from '../utils/data.jsx';
 
-function CartaPage() {
+function CartPage() {
 
   return (
     <div className="cart">
@@ -73,4 +73,4 @@ function CartaPage() {
   );
 }
 
-export default CartaPage
+export default CartPage

@@ -31,10 +31,10 @@ function Header() {
       </div>
 
       <div className="header__main">
-        <a href="/" className="header__logo">
+        <Link to="/" className="header__logo">
           <span className="header__logo-media">MEDIA</span>
           <span className="header__logo-park">PARK</span>
-        </a>
+        </Link>
 
         <button className="header__catalog-btn">
           <BurgerIcon />
