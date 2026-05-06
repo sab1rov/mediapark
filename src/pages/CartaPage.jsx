@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react"
 
 function CartaPage() {
-  return (
-    <div>CartaPage</div>
-  )
+  return <div>CartaPage</div>
 }
 
 export default CartaPage
